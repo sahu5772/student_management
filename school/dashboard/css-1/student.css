@@ -1,0 +1,264 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    font-family: Poppins;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input {
+  border: 2px solid #0bbde6;
+  border-radius: 10px;
+}
+.main {
+  margin: 25px;
+  padding: 30px;
+  border: 2px solid;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  border-bottom: none;
+}
+.top h5 {
+  font-size: 18px !important;
+}
+.main h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 125px !important;
+}
+.top h6 {
+  font-size: 25px;
+  border-bottom: 1px solid;
+  width: 180px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.basic {
+  width: 100%;
+  float: left;
+}
+.basic lable {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.basic input {
+  width: 50%;
+ height: 45px;
+  font-size: 25px;
+}
+.basic lable h5 {
+  width: 30%;
+font-size: 25px;
+font-weight: 600;
+}
+.candidate {
+  width: 100%;
+  float: left;
+}
+.candidate h6 {
+  width: 12%;
+}
+.name-fields lable {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.name-fields input {
+  width: 72%;
+  height: 45px;
+  font-size: 25px;
+}
+.name-fields lable h5 {
+    width: 30%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.part {
+  margin: 10px 0;
+}
+.devide {
+  display: inline-block;
+  width: 100%;
+  margin: 8px 0;
+}
+.devide lable {
+  display: flex;
+  width: 50%;
+  float: left;
+}
+.devide lable h5{
+    width: 59%;
+    font-size: 25px;
+font-weight: 600;
+}
+.devide lable input {
+  width: 41%;
+}
+.aadhar {
+  width: 100%;
+  display: inline-flex;
+}
+.aadhar h5{
+    width: 29.5%;
+    font-size: 25px;
+font-weight: 600;
+}
+.aadhar input {
+  width: 70%;
+}
+.part-1 {
+  display: inline-flex;
+  width: 100%;
+}
+.part-1 .frst {
+  width: 56%;
+  display: flex;
+}
+.part-1 .frst-1 {
+  width: 26.33%;
+  display: flex;
+}
+.part-1 .last-box {
+  width: 33.33%;
+  display: flex;
+}
+.part-1 .frst h5 {
+  width: 61%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.part-1 .frst-1 h5 {
+  width: 60%;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.part-1 .frst-1 input{
+  width: 26%;
+}
+.part-1 .last-box h5 {
+  width: 50%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.part-1 .last-box input{
+    width: 50%;
+}
+.part-2 {
+  width: 100%;
+  display: flex;
+  margin: 12px 0;
+}
+.part-2 lable {
+  display: inline-flex;
+  width: 50%;
+}
+.box1 h5 {
+  width: 60% !important;
+  font-size: 25px;
+  font-weight: 600 ;
+}
+.box-1 input{
+  width: 30% !important;
+}
+.box-2 h5 {
+  width: 62%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.box-2 input{
+    width: 30%;
+}
+.foot-box {
+  width: 77%;
+  display: inline-block;
+}
+.foot-boxs h5{
+    width: 62%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.foot-boxs input{
+    width: 60%;
+margin-left: 308px;
+height: 40px;
+margin-top: 14px;
+}
+.up {
+    width:  100%;
+    border: none;
+    border-collapse: collapse;
+    
+  }
+  .up tr {
+
+    float: left;
+    width: 100%;
+  }
+  .up td {
+
+    width: 16.66% !important;
+    padding: 9px;
+    float: left;
+    height: 41px;
+  }
+  .up th {
+    font-size: 20px;
+    width: 16.66%;
+    padding: 9px;
+    float: left;
+  }
+  .up2{
+  
+    width: 15% !important;
+  }
+  .down{
+    display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  width: 100%;
+float: left;
+}
+.down input {
+  border-radius: 0px;
+  border: 2px solid #000;
+}
+.down h5 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.main p {
+  font-size: 22px;
+  color: #7b7272;
+}
+/* .main h5 {
+  font-size: 25px;
+  font-weight: 600;
+  width: 38%;
+} */
+.up2 a {
+  color: red;
+  margin-right: 13px !important;
+}
+button {
+    background: green;
+    width: 10%;
+    height: 45px;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  input{
+    padding-left: 15px;
+  }

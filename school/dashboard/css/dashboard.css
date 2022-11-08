@@ -1,0 +1,284 @@
+body{
+    font-family: Poppins;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+aside.option {
+width: 20%;
+float: left;
+height: 100%;
+overflow: auto;
+z-index: 5;
+position: fixed;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+background: #21202b;
+}
+.side-bar li {
+margin: 18px 20px;
+list-style: none;
+}
+.side-bar li h4 {
+font-size: 30px;
+text-align: center;
+border-bottom: 1px solid;
+padding-bottom: 20px;
+color: #fff;
+}
+.side-bar li a .md.hydrated {
+padding-right: 20px;
+font-size: 30px;
+}
+.side-bar li a {
+font-size: 20px;
+vertical-align: middle;
+display: inline-flex;
+text-decoration: none;
+color: #fff;
+}
+.head h5 {
+font-size: 25px;
+margin-left: 20PX;
+border-bottom: 1px solid;
+margin-right: 15px;
+padding-left: 5px;
+margin-top: 32px;
+padding-bottom: 15px;
+color: #fff;
+}
+.logout {
+padding-top: 20px;
+}
+.logout a {
+font-size: 25px !important;
+color: red !important;
+}
+
+.right {
+float: right;
+width: 80%;
+background-color: #eff0f4;
+}
+.main-header {
+float: left;
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 20px 40px;
+background-color: #fff;
+}
+.aside-right li {
+list-style: none;
+float: right;
+}
+.second-header {
+float: left;
+width: 100%;
+padding: 20px;
+box-shadow: 4rem 3rem 1rem 3.5rem #f6f6f6;
+margin: 5px 0px;
+background-color: #fff;
+}
+.search .md.hydrated {
+font-size: 30px;
+padding: 0 15px;
+color: #000;
+}
+.search p {
+font-size: 20px;
+}
+
+.background {
+background-color: #fff;
+box-shadow: 4rem 3rem 2rem 3.5rem #f6f6f6;
+width: 100%;
+}
+.background-1 {
+background-color: #fff;
+box-shadow: 4rem 3rem 2rem 3.5rem #f6f6f6;
+width: 100%;
+}
+.search {
+display: flex;
+width: 100%;
+}
+.notify {
+width: 50%;
+}
+.user-box {
+width: 50%;
+text-align: right;
+}
+.us-box {
+  width: 50%;
+  text-align: right;
+  }
+  .us-box p a {
+    color: #000;
+    border: 1px solid;
+    padding: 7px 10px;
+    border-radius: 16px;
+  }
+  .us-box p a:hover {
+    background: #2cbb43e0;
+    color: #fff;
+  }
+.page {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 11px;
+    margin: 20px 0;
+  }
+  .page a {
+    background: #60a88d;
+    padding: 11px 20px;
+    color: #fff;
+    margin: 0 8px;
+    border-radius: 25px;
+  }
+  .page a:hover {
+    background: #1e1a1a;
+  }
+  .active {
+    background: #000 !important;
+  }
+  .tb {
+    width: 98%;
+    margin: 30px 10px;
+    position: sticky;
+  }
+
+  .success {
+    background: green;
+    width: 26%;
+    border-radius: 26px;
+    color: #fff;
+    margin-bottom: 6PX;
+    float: right;
+text-align: center;
+  }
+  #formids {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    float: left;
+    border: 1px solid;
+  }
+
+
+  table {
+    width: 90%;
+    margin: 30px 10px;
+  }
+  td {
+ 
+    text-align: center;
+    padding-bottom: 15px;
+
+  }
+  th {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  input {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+  }
+  select {
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+  button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(89, 217, 43);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-bottom: 30px;
+  }
+a .button:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#removerows{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.edit-data{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(100, 242, 48);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.delete-data{
+  border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(235, 39, 39);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                margin-bottom: 15px;
+  cursor: pointer;
+}
+#tutorial{
+  border-collapse:collapse;
+  border:1px solid #000 !important;
+  position: sticky;
+}
